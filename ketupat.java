@@ -19,14 +19,14 @@ public class Main {
                         if ((j > n - i) && (j < n + i)) {
                             System.out.print("*");
                         } else {
-                            System.out.print(" ");
+                            System.out.print("0");
                         }
                     } else {
 
                         if ((j > i - n) && (j < 3*n-i)) {
                             System.out.print("*");
                         } else {
-                            System.out.print(" ");
+                            System.out.print("0");
                         }
 
                     }
